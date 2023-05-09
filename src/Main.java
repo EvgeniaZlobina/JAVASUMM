@@ -11,7 +11,7 @@ public class Main {
 
         if (summ1 > 1000) {itog = summ + summ1 + summ1/100; bonus = summ1/100;}
         else {itog = summ + summ1; bonus = 0;};
-        System.out.printf("итоговый счет = " + itog);
+        System.out.printf("итоговый счет = " + itog + ";");
         System.out.println(" количество бонусных рублей = " + bonus);
 
 
